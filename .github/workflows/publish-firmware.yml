@@ -13,11 +13,13 @@ jobs:
     uses: esphome/workflows/.github/workflows/build.yml@025a1e6255610c498ed590403b7e510b69e474df  # 2026.4.1
     with:
       #### Modify below here to match your project ####
+      # files: |
+      #   reward-dispenser-esp32.factory.yaml
+      #   reward-dispenser-esp32-c3.factory.yaml
+      #   reward-dispenser-esp32-c6.factory.yaml
+      #   reward-dispenser-esp32-s3.factory.yaml
       files: |
-        # reward-dispenser-esp32.factory.yaml
         reward-dispenser-esp32-c3.factory.yaml
-        # reward-dispenser-esp32-c6.factory.yaml
-        # reward-dispenser-esp32-s3.factory.yaml
       esphome-version: 2026.6.5
       combined-name: reward-dispenser
       #### Modify above here to match your project ####
